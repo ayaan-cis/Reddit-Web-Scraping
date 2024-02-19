@@ -57,14 +57,14 @@ def scrape_and_save_comments(url, filename="Top Comments.csv"):
 
 
 # Executing functions
-subreddit_name = "Eldenring"
+subreddit_name = # Add subreddit here
 get_subreddit_info(subreddit_name)
 print_top_hot_posts(subreddit_name)
 top_posts = scrape_and_save_top_posts(subreddit_name)
 print("--\n")
 print(top_posts)
 
-url = "https://www.reddit.com/r/Eldenring/comments/18uodah/do_you_think_marika_loved_her_children/"
+url = # Add URL here
 comments_df = scrape_and_save_comments(url)
 print("\n--\n")
 print(comments_df)
